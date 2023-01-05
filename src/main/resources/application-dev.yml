@@ -3,6 +3,6 @@ server:
   jetty:
     accesslog:
       file-date-format: ${D_F}
-      password: fffrrr
+      password: ${PASS_DEV}
 
-security_id: 000uuuwf#@$#m
+security_id: ${SECRET}
