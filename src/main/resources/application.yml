@@ -1,2 +1,5 @@
 server:
   port: 8081
+  jetty:
+    accesslog:
+      file-date-format: ${D_F}
