@@ -7,6 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class BfgTestApplication {
 
     public static void main(String[] args) {
+
+
+        System.out.printf("test");
         SpringApplication.run(BfgTestApplication.class, args);
     }
 
